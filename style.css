@@ -1,0 +1,78 @@
+body {
+    display: flex;                
+    justify-content: center;      
+    align-items: center;           
+    flex-direction: column;        
+    gap: 15px;                     
+    min-height: 100vh;             
+    margin: 0;  
+    background-color: #ffc2cd;                   
+}
+
+.Answers {
+  display: flex;          
+  flex-wrap: nowrap;      
+  gap: 10px;              
+}
+
+#Page{
+    background-color:#ff93ac;
+    padding:300px;
+    border-radius:15px;
+}
+
+#PageLast{
+    background-color:#ff93ac;
+    padding:300px;
+    border-radius:15px;
+    background-image:url(Mommaimage.jpeg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+}
+
+#Question{
+    position: relative;
+    bottom:70px;
+    right:10px;
+    scale:200%;
+}
+
+#AnswerWeWant{
+    position: relative;
+    top:100px;
+    right: 100px;
+    scale:200%;
+}
+
+#MovingButton{
+    position: relative;
+    top:80px;
+    left: 90px;
+    scale:200%;
+    transform:translateX(0);
+    transition: transfrom 0.1s linear;
+    padding-left:50px;
+    padding-bottom:10px;
+    padding-top:10px;
+    
+
+}
+
+#MovingButton:hover{
+    transform: translateX(100px);
+}
+
+#Confess{
+    position: relative;
+    right:10px;
+    scale:400%;
+    color:	#fc3468;
+    display:inline-block;
+    transform:rotate(-20deg);
+}
+
+
+
+
